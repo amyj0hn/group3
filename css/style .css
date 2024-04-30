@@ -6,15 +6,26 @@
     box-sizing: border-box;}
 
 .navbar{
-    text-align: center;
     background-color: #9DB2BF;
     word-spacing: 90px;
     height: 50px;
-    padding-top: 20px;
-    text-decoration-line: none;
-    }
+    margin: 10px;
+    
+}
+
+
 
 body{
     background-color: #27374D;
     color: aliceblue;
+}
+
+div img{
+    width: 70px;
+    height: 50px;
+}
+
+.nav{
+    word-spacing: 90px;
+    text-align: center;
 }
