@@ -6,21 +6,22 @@
     box-sizing: border-box;}
 
 .navbar{
-    background-color: #9DB2BF;
+    background-color: #FFF2E1;
     word-spacing: 90px;
-    height: 50px;
-    margin: 10px;
-    
+     text-align: center;
+     height: 50px;
+     
 }
 
 
 
 body{
-    background-color: #27374D;
+    background-color: #D1BB9E;
     color: aliceblue;
 }
 
 div img{
+   
     width: 70px;
     height: 50px;
 }
@@ -28,4 +29,9 @@ div img{
 .nav{
     word-spacing: 90px;
     text-align: center;
+}
+
+.navbar img{
+    position: absolute ;
+    left: 0;
 }
