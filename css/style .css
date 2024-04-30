@@ -5,33 +5,33 @@
     padding: 0;
     box-sizing: border-box;}
 
-    .navbar{
-        background-color: #FFF2E1;
-        word-spacing: 90px;
-         text-align: center;
-         height: 50px;
+.navbar{
+    background-color: #FFF2E1;
+    word-spacing: 90px;
+    text-align: center;
+    height: 50px;
          
     }
     
     
     
-    body{
-        background-color: #D1BB9E;
-        color: aliceblue;
+body{
+    background-color: #D1BB9E;
+    color: aliceblue;
     }
     
-    div img{
+div img{
        
-        width: 70px;
-        height: 50px;
+    width: 70px;
+    height: 50px;
     }
     
-    .nav{
-        word-spacing: 90px;
-        text-align: center;
+.nav{
+    word-spacing: 90px;
+    text-align: center;
     }
     
-    .navbar img{
-        position: absolute ;
-        left: 0;
+.navbar img{
+    position: absolute ;
+    left: 0;
     }
