@@ -35,3 +35,17 @@ div img{
     position: absolute ;
     left: 0;
 }
+
+section {
+    padding: 50px;
+}
+
+footer {
+    background-color: #FFF2E1;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

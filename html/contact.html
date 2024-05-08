@@ -6,13 +6,39 @@
     <title>Contact</title>
 </head>
 <body>
-    <head>
-        <nav class="navbar">            
+
+    <link rel="stylesheet" href="/css/style .css">
+    <header>
+        <div class="navbar">
+            <img src="company_logo/Logo 4.png" alt="DAAL Motors logo">    
+
             <a target="_blank" href="http://127.0.0.1:5500/index.html">Home</a>
             <a target="_blank" href="http://127.0.0.1:5500/html/aboutus.html">About</a>
             <a target="_blank" href="http://127.0.0.1:5500/html/products.html">Products</a>
             <a target="_blank" href="http://127.0.0.1:5500/html/contact.html">Contact</a>
+            </div>
         </nav>
-    </head>
+    </header>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>Feel free to get in touch with us if you have any questions about our cars or services.</p>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        &copy; Daal Motors. All rights reserved.
+    </footer>
+
+
+
 </body>
 </html>
